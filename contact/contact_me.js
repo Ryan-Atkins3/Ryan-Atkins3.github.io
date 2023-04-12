@@ -12,7 +12,7 @@ $(function() {
       // Not decided if I need it yet
      },
      submitSuccess: function($form, event) {
-      event.preventDefault(); // prevent default submit behaviour
+      event.preventDefault(); // prevent default submit behavior
        // get values from FORM
        var name = $("input#name").val();  
        var email = $("input#email").val(); 
